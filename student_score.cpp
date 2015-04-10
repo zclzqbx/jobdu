@@ -10,7 +10,7 @@ int main()
 	{
 		vector<int> score(N,0);
 		int i=0,stmp;
-		while(cin>>stmp && i<N)//people can be computed
+		while(i<N && cin>>stmp)//people can be computed
 		{
 			score[i]=stmp;
 			++i;
@@ -26,7 +26,6 @@ int main()
 			}
 		}
 		cout<<num<<endl;
-
 	}
 	return 0;
 }
