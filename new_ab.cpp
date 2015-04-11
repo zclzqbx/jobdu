@@ -15,10 +15,11 @@ int main()
 			tmp.push_back(sum%m);
 			sum=sum/m;
 		}
-		for(size_t i=tmp.size()-1;i>=0;--i)
+		for(int i=tmp.size()-1;i>=0;--i)
 		{
 			cout<<tmp[i];
 		}
+		cout<<endl;
 	}
 	return 0;
 }
